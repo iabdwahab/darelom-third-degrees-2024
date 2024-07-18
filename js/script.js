@@ -1,7 +1,7 @@
 const tableEl = document.querySelector('.table');
 
-// fetch('https://iabdwahab.me/darelom-second-degrees-2024/data.json').then(res => res.json()).then(data => {
-fetch('data.json').then(res => res.json()).then(data => {
+fetch('https://iabdwahab.me/darelom-third-degrees-2024/data.json').then(res => res.json()).then(data => {
+// fetch('data.json').then(res => res.json()).then(data => {
 
   data.forEach(student => {
     student.total = 0;
